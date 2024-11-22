@@ -37,7 +37,7 @@ def main():
     inc = st.text_input('enter average income:')
     inf = st.text_input('enter inflation:')
     life_exp = st.text_input('enter life expectency:')
-    fer = .text_input('Enter fertility rate:')
+    fer = st.text_input('Enter fertility rate:')
     gdp = st.text_input('Enter GDP per population:')
 
     input_list = [[ch_mort, exp, hel, imp, inc, inf, life_exp, fer, gdp]]
